@@ -1,0 +1,25 @@
+{
+  "name": "node-hello-world-minimal",
+  "version": "1.0.0",
+  "description": "Node.js minimal example",
+  "author": "Steve Martinelli <s.martinelli@gmail.com>",
+  "main": "app.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM/node-hello-world-minimal.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@leap-ai/sdk": "^0.0.113",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.21",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "type": "module"
+}
